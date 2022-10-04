@@ -1,0 +1,35 @@
+
+body { 
+    padding: 5em 2em 5em 2em; 
+    
+}
+
+
+form { 
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+ 
+
+    padding: 2em 0px 2em 0em; 
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 2em;
+    
+}
+
+button { 
+    
+    padding: 2px 10px;
+    width: 10em;
+
+}
+
+
+/* Transform downwards */
+#error { 
+    text-align: center;
+    margin-top: 2em;
+   
+   
+}

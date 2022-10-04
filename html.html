@@ -7,27 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <title>Form Validation </title>
+
+    <script defer src="js.js"> </script>
+
 </head>
 
 <body>
-    <form action="/" method="GET">
+    
+    <form id='form' action="" onsubmit="return validate()">
         <div id="name-container">
-            <label for="name"> Name</label>
+            <label for="name"> User Name</label>
             <input id="name" name="name" type="text">
         </div>
         <div>
             <label for="passowrd"> Password</label>
             <input id="password" name="password" type="password">
         </div>
+        <div>
         <button type="submit"> Submit </button>
-        <div id="error">
-        </div>
     </form>
+</div>
+<div id="error"> Hello
+</div>
+   
 
-
-    <script src="js.js">
-        
-    </script>
 
 </body>
 
