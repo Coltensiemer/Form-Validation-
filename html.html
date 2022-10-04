@@ -13,23 +13,23 @@
 </head>
 
 <body>
-    
-    <form id='form' action="" onsubmit="return validate()">
-        <div id="name-container">
-            <label for="name"> User Name</label>
-            <input id="name" name="name" type="text">
+    <form id="form" action="" onsubmit="return validation();">
+        <header> Login 
+        </header>
+        <div>
+            <label for="name"> </label>
+            <input id="name" name="name" type="text" placeholder="User Name">
         </div>
         <div>
-            <label for="passowrd"> Password</label>
-            <input id="password" name="password" type="password">
+            <label for="passowrd" ></label>
+            <input id="password" name="password" type="password" placeholder="Password">
         </div>
         <div>
-        <button type="submit"> Submit </button>
+        <button id="submit" type="submit"> Login </button>
+        <button id="signup"type="submit"> Sign Up </button>
     </form>
+<div id="error"> This is the error messages
 </div>
-<div id="error"> Hello
-</div>
-   
 
 
 </body>
