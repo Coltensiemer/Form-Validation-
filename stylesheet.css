@@ -2,7 +2,6 @@
 :root {
  --color-primary: rgb(89, 89, 229); 
  --color-secondary: #f0f8ff; 
-
  --fw: 100; 
 
 } 
@@ -98,9 +97,7 @@ form>header {
 
 @media (max-width: 350px) { 
 
-    body { 
-       
-    } 
+    form 
 
     form { 
         width: 100%;
